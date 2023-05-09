@@ -54,22 +54,28 @@ During the development of this dashboard, we have used many existing resources f
 -   [Quill](https://quilljs.com/) - A free, open source WYSIWYG editor built for the modern web
 -   [Sweet Alerts](https://sweetalert2.github.io/) - A beautiful, responsive, customisable, accessible replacement for Javascript’s popup boxes.
 -   [three.js](https://threejs.org/) - JavaScript 3D library
+-   [Nepcha Analytics](https://nepcha.com/?ref=readme) for the analytics tool. Nepcha is already integrated with Soft UI Dashboard Pro Tailwind. You can use it to gain insights into your sources of traffic.
 
 Let us know your thoughts below. And good luck with development!
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
+- [Soft UI Dashboard Pro Tailwind  ](#soft-ui-dashboard-pro-tailwind--)
+      - [Special thanks](#special-thanks)
+  - [Table of Contents](#table-of-contents)
+  - [Versions](#versions)
+  - [Demo](#demo)
+  - [Quick start](#quick-start)
+  - [Terminal Commands](#terminal-commands)
+  - [Documentation](#documentation)
+    - [What's included](#whats-included)
+  - [Browser Support](#browser-support)
+  - [Resources](#resources)
+  - [Reporting Issues](#reporting-issues)
+  - [Technical Support or Questions](#technical-support-or-questions)
+  - [Licensing](#licensing)
+  - [Useful Links](#useful-links)
+        - [Social Media](#social-media)
 
 ## Versions
 
@@ -154,6 +160,7 @@ At present, we officially aim to support the last two versions of the following 
 - [License Agreement](https://www.creative-tim.com/license?ref=readme-sudpt)
 - [Support](https://www.creative-tim.com/contact-us?ref=readme-sudpt)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-pro-tailwind/issues)
+- [Nepcha Analytics](https://nepcha.com/?ref=readme) - Analytics tool for your website
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Soft UI Dashboard Pro Tailwind. Here are some advices for our users that want to report an issue:
@@ -168,7 +175,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-sudpt)
+- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-sudpt)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudpt)
 
 ## Useful Links
