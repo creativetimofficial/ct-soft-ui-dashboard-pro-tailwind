@@ -1,6 +1,6 @@
 # [Soft UI Dashboard Pro Tailwind](http://demos.creative-tim.com/soft-ui-dashboard-pro-tailwind/pages/dashboards/default.html?ref=readme-sudpt) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard-pro-tailwind&text=Check%20Soft%20UI%20Dashboard%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/soft-ui-dashboard-pro-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
 
-![version](https://img.shields.io/badge/version-1.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-pro-tailwind.svg)](https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-pro-tailwind.svg)](https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro-tailwind/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-pro-tailwind.svg)](https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-pro-tailwind.svg)](https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/soft-ui-dashboard-pro-tailwind.jpg)
 
@@ -105,11 +105,63 @@ Let us know your thoughts below. And good luck with development!
 Quick start options:
 
 - Download from [Creative Tim](https://www.creative-tim.com/product/soft-ui-dashboard-pro-tailwind?ref=readme-sudpt).
-
+  
 ## Terminal Commands
 
 1. Download and Install NodeJs from [NodeJs Official Page](https://nodejs.org/en/download/).
 2. Navigate to the root / directory and run npm install to install our local dependencies.
+
+
+Learn how to use Soft’s included npm scripts to start a local server, compile source code, run tests, and more.
+<br/>
+
+### How to run the project locally
+
+Our package.json includes convenient methods for working with the framework, including compiling code, running tests, and more.
+
+To use our build system and use Sass to customize your website you’ll need a copy of Soft UI Dashboard source files and Node. Follow these steps and you should be ready to rock:
+
+• Download and install Node.js, which we use to manage our dependencies. <br/>
+• Navigate to the root / directory and run **npm install** to install our local dependencies. <br/>
+
+<br />
+
+##### NPM
+
+Make sure that you have [Node.js](https://nodejs.org/en/) and [Tailwind CSS](https://tailwindcss.com/) installed.
+
+<br/>
+
+When completed, you’ll be able to run the various commands provided from the command line:
+
+```html showLineNumbers
+npm install
+```
+
+Run project's live preview:
+
+```html showLineNumbers
+npm run dev
+```
+
+<br/>
+Include the main JavaScript file to make interactive elements working:
+```html showLineNumbers
+<script src="../path/to/soft-ui-dashboard-tailwind.js"></script>
+```
+
+<br />
+
+##### Import Soft UI Dashboard Tailwind Style Sheet
+
+Import the **soft-ui-dashboard-tailwind.css** into your project file. Make sure to import the soft-ui-dashboard-tailwind.css style sheet after all other style sheets.
+
+```html showLineNumbers
+<link rel="stylesheet" href="soft-ui-dashboard-tailwind.css" />
+```
+
+
+<br />
 
 ## Documentation
 The documentation for the Soft UI Dashboard Pro Tailwind is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/soft-ui-dashboard/?ref=readme-sudpt).
@@ -175,7 +227,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-sudpt)
+- Copyright 2024 [Creative Tim](https://www.creative-tim.com?ref=readme-sudpt)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudpt)
 
 ## Useful Links
