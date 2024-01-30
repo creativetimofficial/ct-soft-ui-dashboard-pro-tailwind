@@ -117,13 +117,13 @@ Quick start options:
 2. Navigate to the root / directory and run npm install to install our local dependencies.
 3. Before running the project, make sure you have the following prerequisites installed:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/){:target="_blank"}: Make sure you have Ruby installed on your machine. You can check if Ruby is installed by running:
+- <a href="https://www.ruby-lang.org/en/documentation/installation/" target="_blank">Ruby</a>: Make sure you have Ruby installed on your machine. You can check if Ruby is installed by running:
 
   ```html showLineNumbers
   ruby --version
   ```
-
-- [Jekyll](https://jekyllrb.com/docs/){:target="_blank"}: Jekyll is a static site generator for your project. Install it by running:
+  
+- <a href="https://jekyllrb.com/docs/" target="_blank">Jekyll</a>: Jekyll is a static site generator for your project. Install it by running:
 
   ```html showLineNumbers
   bundle install
