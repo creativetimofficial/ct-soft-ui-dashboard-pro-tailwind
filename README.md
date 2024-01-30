@@ -164,6 +164,7 @@ Run project's live preview:
 
 <br/>
 Include the main JavaScript file to make interactive elements working:
+
   ```html showLineNumbers
   <script src="../path/to/soft-ui-dashboard-tailwind.js"></script>
   ```
