@@ -10,6 +10,11 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
 
+Crafted with precision using the powerful Jekyll framework, the Soft UI Dashboard Pro Tailwind sets a new standard for web development.
+This innovative dashboard seamlessly integrates with Jekyll, allowing for easy integration and customization. The product's modular design offers a range of components and sections that can be effortlessly included in various pages.
+
+This componentized approach not only enhances flexibility but also ensures a streamlined development process. Whether you opt for a section, a component structure, or a page, Soft UI Dashboard Pro Tailwind empowers you to create visually stunning websites and web applications with ease. Elevate your web development experience with this dynamic and feature-rich dashboard.
+
 **Fully Coded Elements**
 
 Soft UI Dashboard Pro Tailwind is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and classes.
@@ -110,6 +115,19 @@ Quick start options:
 
 1. Download and Install NodeJs from [NodeJs Official Page](https://nodejs.org/en/download/).
 2. Navigate to the root / directory and run npm install to install our local dependencies.
+3. Before running the project, make sure you have the following prerequisites installed:
+
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/): Make sure you have Ruby installed on your machine. You can check if Ruby is installed by running:
+
+  ```html showLineNumbers
+  ruby --version
+  ```
+
+- [Jekyll](https://jekyllrb.com/docs/): Jekyll is a static site generator for your project. Install it by running:
+
+  ```html showLineNumbers
+  bundle install
+  ```
 
 
 Learn how to use Soft’s included npm scripts to start a local server, compile source code, run tests, and more.
@@ -134,21 +152,21 @@ Make sure that you have [Node.js](https://nodejs.org/en/) and [Tailwind CSS](htt
 
 When completed, you’ll be able to run the various commands provided from the command line:
 
-```html showLineNumbers
-npm install
-```
+  ```html showLineNumbers
+  npm install
+  ```
 
 Run project's live preview:
 
-```html showLineNumbers
-npm run dev
-```
+  ```html showLineNumbers
+  npm run dev
+  ```
 
 <br/>
 Include the main JavaScript file to make interactive elements working:
-```html showLineNumbers
-<script src="../path/to/soft-ui-dashboard-tailwind.js"></script>
-```
+  ```html showLineNumbers
+  <script src="../path/to/soft-ui-dashboard-tailwind.js"></script>
+  ```
 
 <br />
 
@@ -156,9 +174,9 @@ Include the main JavaScript file to make interactive elements working:
 
 Import the **soft-ui-dashboard-tailwind.css** into your project file. Make sure to import the soft-ui-dashboard-tailwind.css style sheet after all other style sheets.
 
-```html showLineNumbers
-<link rel="stylesheet" href="soft-ui-dashboard-tailwind.css" />
-```
+  ```html showLineNumbers
+  <link rel="stylesheet" href="soft-ui-dashboard-tailwind.css" />
+  ```
 
 
 <br />
@@ -172,30 +190,120 @@ Within the download you'll find the following directories and files:
 
 ```
 soft-ui-dashboard-pro-tailwind
-├── build
-│   ├── assets
-│   │   ├── css
-│   │   │   ├── soft-ui-dashboard-tailwind.css
-│   │   │   ├── soft-ui-dashboard-tailwind.min.css
-│   │   ├── fonts
-│   │   ├── img
-│   │   └── js
-│   │       ├── plugins
-│   │       ├── soft-ui-dashboard-pro-tailwind.js
-│   │       └── soft-ui-dashboard-pro-tailwind.min.js
-│   ├── docs
-│   │   └── documentation.html
-│   ├── index.html
-│   └── pages
-│       ├── applications
-│       ├── authentication
-│       ├── dashboards
-│       ├── ecommerce
-│       └── pages
+.
+├── CHANGELOG.md
+├── Gemfile
+├── Gemfile.lock
+├── Gemfile.save
+├── README.md
+├── _config.yml
+├── _data
+│   └── sidebarRoutesPro.yml
+├── _includes
+│   ├── components
+│   │   ├── applications/
+│   │   ├── authentication/
+│   │   ├── dashboards/
+│   │   ├── ecommerce/
+│   │   ├── navbars/
+│   │   ├── pages/
+│   │   └── sidenav/
+│   ├── fixed-plugin.html
+│   ├── footer-auth.html
+│   ├── footer.html
+│   ├── head.html
+│   ├── path/
+│   │   └── path-assets.html
+│   └── profile-header.html
+├── _layouts/
+│   ├── authentication.html
+│   ├── default.html
+│   ├── pricing.html
+│   ├── profile.html
+│   ├── rtl.html
+│   └── vr.html
+├── assets/
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   └── js/
+├── docs/
+├── index.html
 ├── package.json
+├── pages
+│   ├── applications/
+│   ├── authentication
+│   │   ├── error
+│   │   │   ├── 404.html
+│   │   │   └── 500.html
+│   │   ├── lock
+│   │   │   ├── basic.html
+│   │   │   ├── cover.html
+│   │   │   └── illustration.html
+│   │   ├── reset
+│   │   │   ├── basic.html
+│   │   │   ├── cover.html
+│   │   │   └── illustration.html
+│   │   ├── signin
+│   │   │   ├── basic.html
+│   │   │   ├── cover.html
+│   │   │   └── illustration.html
+│   │   ├── signup
+│   │   │   ├── basic.html
+│   │   │   ├── cover.html
+│   │   │   └── illustration.html
+│   │   └── verification
+│   │       ├── basic.html
+│   │       ├── cover.html
+│   │       └── illustration.html
+│   ├── dashboards
+│   │   ├── automotive.html
+│   │   ├── crm.html
+│   │   ├── default.html
+│   │   ├── smart-home.html
+│   │   └── vr
+│   │       ├── vr-default.html
+│   │       └── vr-info.html
+│   ├── ecommerce
+│   │   ├── orders
+│   │   │   ├── details.html
+│   │   │   └── list.html
+│   │   ├── overview.html
+│   │   ├── products
+│   │   │   ├── edit-product.html
+│   │   │   ├── new-product.html
+│   │   │   ├── product-page.html
+│   │   │   └── products-list.html
+│   │   └── referral.html
+│   └── pages
+│       ├── account
+│       │   ├── billing.html
+│       │   ├── invoice.html
+│       │   ├── security.html
+│       │   └── settings.html
+│       ├── charts.html
+│       ├── messages.html
+│       ├── notifications.html
+│       ├── pricing-page.html
+│       ├── profile
+│       │   ├── overview.html
+│       │   ├── projects.html
+│       │   └── teams.html
+│       ├── projects
+│       │   ├── general.html
+│       │   ├── new-project.html
+│       │   └── timeline.html
+│       ├── rtl-page.html
+│       ├── sweet-alerts.html
+│       ├── users
+│       │   ├── new-user.html
+│       │   └── reports.html
+│       └── widgets.html
+├── postcss.config.js
 ├── src
 │   └── styles.css
-└── tailwind.config.js
+├── tailwind.config.js
+└── tailwindcss.rb
 
 ```
 
